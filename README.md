@@ -3,6 +3,7 @@
 This application lists trending movies, allows you to search between movies (2 characters or more searches need to be done), shows the details of movies and can be added and removed to the favorite list of liked movies. (Adding and subtractions are done locally, not by service.)
 
 # Architectural structure of the project (Clean architecture and MVVM are used) 
+```
 lib/
 ├── core/
 │   └── constants/ 
@@ -27,7 +28,7 @@ lib/
 ├── routes/
 │   └── app_router.dart    
 ├── main.dart
-
+```
 # Packages and functions used
 
 - flutter_riverpod
@@ -60,7 +61,3 @@ Used for responsive design.
 
 - flutter_native_splash
 Used to customize the splash screen at application launch.
-
-
-
-
